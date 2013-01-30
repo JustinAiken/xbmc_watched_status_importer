@@ -1,0 +1,5 @@
+adapter: mysql2
+host: xxx.xxx.xxx.xxx
+username: xbmc
+password: xbmc
+database: MyVideos75
