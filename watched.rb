@@ -16,7 +16,7 @@ end
 watched = XmlSimple.xml_in 'watched.xml'
 watched["file"].each do |w|
   begin
-    phile = Phile.where(strFilename: w["content"]).first
+    phile = Phile.where(:strFilename => w["content"]).first
     if phile
       phile.playCount ||= 1
       phile.save
