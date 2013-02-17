@@ -1,5 +1,12 @@
+# only use one block
+
+# for mysql
 adapter: mysql2
 host: xxx.xxx.xxx.xxx
 username: xbmc
 password: xbmc
 database: MyVideos75
+
+# for sqlite3 (default)
+adapter: sqlite3
+database: "/home/USER/.xbmc/userdata/Database/MyVideos75.db"

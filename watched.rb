@@ -18,6 +18,7 @@ watched["file"].each do |w|
   begin
     phile = Phile.where(:strFilename => w["content"]).first
     if phile
+      puts "marking '#{phile.strFilename}' as watched..."
       phile.playCount ||= 1
       phile.save
     end
