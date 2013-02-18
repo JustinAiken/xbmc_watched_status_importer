@@ -7,12 +7,11 @@ Requirements:
 -------------   
 1) Ruby (tested on 1.9)   
 2) bundler   
-3) a mySQL database (you may be able to put the sqlite gem and try that, but I haven't tested it)   
 4) A watched.xml made with the plugin found at [http://code.google.com/p/xbmc-watched-data](http://code.google.com/p/xbmc-watched-data)
 
 Preparation:  
 ------------
-1) Setup the database.xml to point to your database   
+1) Setup the database.xml to point to your database   (Only use the mysql settings or the sqlite settings, not both)
 2) Copy the watched.xml into the project folder   
    
 Run:
